@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables-js</title>
+</head>
+<body>
+  <button
+  onclick="
+  let time = new Date().getHours();
+
+    if(time > 0 && time<= 12)
+    {
+      alert('good morning');
+    }
+    else if(time > 12 && time <=15)
+    {
+      alert('good afternoon');
+    }
+    else if(time > 15 && time <=19)
+    {
+      alert('good evening');
+    }
+    else{
+      alert('good night');
+    }
+    ">
+    welcome
+  </button>
+  <script>
+    //the three methods used to create the variables
+    let variable1 = 'hello';
+    console.log(variable1);
+
+    const variable2 = 3;
+    console.log(variable2);
+
+    var variable3 = true;
+    console.log(variable3);
+
+    let n = (variable1=='hello')?'hi':'bye';
+    console.log(n);
+
+    //camelCase
+    let camelCase;
+    //pascalCase
+    let PascalCase;
+
+    
+
+
+  </script>
+</body>
+</html>
